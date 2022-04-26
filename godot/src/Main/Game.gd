@@ -34,7 +34,8 @@ func _ready() -> void:
 		# (which we connected to the "session_supported" signal above) will
 		# be called sometime later to let us know if it's supported or not.
 		webxr_interface.is_session_supported("immersive-vr")
- 
+		webxr_interface.xr_standard_mapping = true
+		
 	$ARVROrigin/LeftController.connect("button_pressed", self, "_on_LeftController_button_pressed")
 	$ARVROrigin/LeftController.connect("button_release", self, "_on_LeftController_button_release")
  
