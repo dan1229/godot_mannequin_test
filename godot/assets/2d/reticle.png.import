@@ -4,15 +4,16 @@ importer="texture"
 type="StreamTexture"
 path.s3tc="res://.import/reticle.png-82034ac855365a76f8f31dfc0b0190e4.s3tc.stex"
 path.etc2="res://.import/reticle.png-82034ac855365a76f8f31dfc0b0190e4.etc2.stex"
+path.etc="res://.import/reticle.png-82034ac855365a76f8f31dfc0b0190e4.etc.stex"
 metadata={
-"imported_formats": [ "s3tc", "etc2" ],
+"imported_formats": [ "s3tc", "etc2", "etc" ],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/2d/reticle.png"
-dest_files=[ "res://.import/reticle.png-82034ac855365a76f8f31dfc0b0190e4.s3tc.stex", "res://.import/reticle.png-82034ac855365a76f8f31dfc0b0190e4.etc2.stex" ]
+dest_files=[ "res://.import/reticle.png-82034ac855365a76f8f31dfc0b0190e4.s3tc.stex", "res://.import/reticle.png-82034ac855365a76f8f31dfc0b0190e4.etc2.stex", "res://.import/reticle.png-82034ac855365a76f8f31dfc0b0190e4.etc.stex" ]
 
 [params]
 
